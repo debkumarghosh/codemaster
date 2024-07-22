@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Code Master</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="game.html">Game</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <aside class="left-sidebar">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                <li><a href="https://en.ritsumei.ac.jp/" target="_blank">Ritsumeikan University</a></li>
+                <li><a href="https://chatgpt.com/" target="_blank">Chat gpt</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section class="portfolio-section">
+                <h2>Portfolio</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Number</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Date</th>
+                            <th>Location</th>
+                            <th>Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Portfolio Website</td>
+                            <td>I build a website (portfolio website) which also have some resources to c, c++ , java and some codes and a tic-tac-toe game </td>
+                            <td>2020-01-01</td>
+                            <td>India</td>
+                            <td><img src="website.jpeg" alt="Project A" class="portfolio-image"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Bluetooth controlled car using Audrino UNO</td>
+                            <td>I made a car using couple of sensors and Audrino uno</td>
+                            <td>2021-05-21</td>
+                            <td>India</td>
+                            <td><img src="audrino.jpeg" alt="Project B" class="portfolio-image"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Training in IBM and a digital badge from IBM in Artificial Intelligence</td>
+                            <td>I learned Artificial intellenge in IBM and got a digital badge</td>
+                            <td>2023-07-12</td>
+                            <td>India</td>
+                            <td><img src="Artificial-Intelligence-Fundamentals.webp" alt="Project B" class="portfolio-image"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Gold price prediction using machine learning</td>
+                            <td>I made this in an internship in All soft solution </td>
+                            <td>2021-05-21</td>
+                            <td>India</td>
+                            <td><img src="Ai.jpg" alt="Project B" class="portfolio-image"></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Diploma in Computer Engineering</td>
+                            <td>I completed Diploma from India in Computer Engineering After 10th grade</td>
+                            <td>2020-05-01</td>
+                            <td>India</td>
+                            <td><img src="diploma.jpeg" alt="Project B" class="portfolio-image"></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <aside class="right-sidebar">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Created on July 17, 2024</p>
+        
+    </footer>
+</body>
+</html>
